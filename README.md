@@ -12,3 +12,7 @@ Below are links to individual members read me as well as the page they implement
     * [Naimul Naim's README](./Group9-README/README-Naimul-Naim.md)
     * [Naimul Naim's work](./event-list.html)
 
+- **Danielle Macklin**: 
+    * [Danielle Macklin's README](./Group9-README/README-Danielle-Macklin.md)
+    * [Danielle Macklin's work](./navigationbar.html)
+

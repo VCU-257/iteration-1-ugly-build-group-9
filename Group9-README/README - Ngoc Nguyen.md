@@ -10,7 +10,7 @@
 *Briefly explain the standard components you used for your assigned areas. [cite_start]Did you stick to the plan from Table 1?*
 * **Components Used:** Boostrap Carousel, Card with Rounded Borders, and Rounded Shadow Container.
 
-I did mostly stick to the plan/our prototype with smaller visual changes depending on Boostraps available component
+I followed the prototype closely, with small tweaks to fit Bootstrap's components. There was some overlap between Naim and me on the Event Details page due to a task assignment mix-up, but since our code was nearly identical, we combined our work without any issues.
 
 ## 3. Technical Challenges & Solutions
 

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details Page</title>
+    <style>
+        /* Mobile-only: restrict layout to max 430px*/
+        body {
+            max-width: 430px;
+            margin: 0 auto;
+            background: #f0f0f0;
+        }
+        .carousel-item { min-height: 45vh; background: #dee2e6; }
+        img {height: 45vh;}
+        .event-label {font-weight: bold; font-size: large; padding: 0vh 1vh 1vh 0vh; margin: 0%;}
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+        <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+            <li class="breadcrumb-item"><a href="#">Event List</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Event Page</li>
+        </ol>
+        </nav>
+
+        <div class="wrapper">
+        <div id="carousel-slider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
+            <!--Indicators-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!--/Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <!--First slide-->
+                <div class="carousel-item active">
+                <img class="d-block w-100" src="/images/Placeholder Picture 1.png" alt="People Networking">
+                </div>
+                <!--/First slide-->
+                <!--Second slide-->
+                <div class="carousel-item">
+                <img class="d-block w-100" src="/images/Placeholder Picture 2 .png" alt="People Presenting">
+                </div>
+                <!--Third slide-->
+                <div class="carousel-item">
+                <img class="d-block w-100" src="/images/Placeholder Picture 3.png" alt="Person Receiving Award">
+                </div>
+                <!--/Third slide-->
+            </div>
+            <!--Prev/Next controls-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-slider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+
+        <div class = "row">
+            <div class = "col-sm-12">
+                <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                    <h2>Event: Untiled Event #1</h2>
+                    <p class="event-label">Description:</p>
+                    <div class="d-flex justify-content-between align-items-start">
+                    <p class="pe-4 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Etiam dignissim sapien quis tellus congue congue. Phasellus 
+                        eget pretium diam. Nulla eu risus mi. Sed ultrices urna ac metus 
+                        tristique, eget pretium leo bibendum.</p>
+                    <a class="btn btn-primary btn-sm flex-shrink-0" href="#" role="button" style="white-space: nowrap;">Buy Ticket</a> <!--Can later use this to reference to payment page-->
+                    </div>
+                    <p class="event-label">Location:</p>
+                    <p><a href="https://egr.vcu.edu/resources/ops-management/buildings/">401 W Main St, Richmond, VA 23284</a></p>
+                    <p class="event-label">Host by:</p>
+                    <p>Jane Doe, John Doe, VCU</p>
+                    <p class="event-label">Community:</p>
+                    <p>UI/UX Designer of VCU</p>
+                    <p class="event-label">Attendees:</p>
+
+                    <div class="my-3 p-3 bg-body rounded shadow-sm"> 
+                        <h6 class="border-bottom pb-2 mb-0">Members</h6> 
+                        <div class="d-flex text-body-secondary pt-3"> 
+                            <svg aria-label="Placeholder: 32x32" class="bd-placeholder-img flex-shrink-0 me-2 rounded" 
+                            height="32" preserveAspectRatio="xMidYMid slice" role="img" width="32" xmlns="http://www.w3.org/2000/svg">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#007bff"></rect>
+                            <text x="50%" y="50%" fill="#007bff" dy=".3em" data-darkreader-inline-fill="" 
+                            style="--darkreader-inline-fill: var(--darkreader-text-007bff, #33a2ff);">32x32</text>
+                            </svg> 
+                            <div class="pb-3 mb-0 small lh-sm border-bottom w-100"> 
+                                <div class="d-flex justify-content-between"> 
+                                    <strong class="text-gray-dark">Full Name</strong> 
+                                    <a href="#">Follow</a> 
+                                </div> 
+                                <span class="d-block">@username</span> 
+                            </div> 
+                        </div> 
+                        <div class="d-flex text-body-secondary pt-3"> 
+                            <svg aria-label="Placeholder: 32x32" class="bd-placeholder-img flex-shrink-0 me-2 rounded"
+                            height="32" preserveAspectRatio="xMidYMid slice" role="img" width="32" xmlns="http://www.w3.org/2000/svg">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#007bff"></rect>
+                            <text x="50%" y="50%" fill="#007bff" dy=".3em" data-darkreader-inline-fill="" 
+                            style="--darkreader-inline-fill: var(--darkreader-text-007bff, #33a2ff);">32x32</text>
+                            </svg> <div class="pb-3 mb-0 small lh-sm border-bottom w-100"> 
+                                <div class="d-flex justify-content-between"> 
+                                    <strong class="text-gray-dark">Full Name</strong> 
+                                    <a href="#">Follow</a> 
+                                </div> 
+                                <span class="d-block">@username</span> 
+                            </div> 
+                        </div> 
+                        <div class="d-flex text-body-secondary pt-3"> 
+                            <svg aria-label="Placeholder: 32x32" class="bd-placeholder-img flex-shrink-0 me-2 rounded" 
+                            height="32" preserveAspectRatio="xMidYMid slice" role="img" width="32" xmlns="http://www.w3.org/2000/svg">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#007bff"></rect>
+                            <text x="50%" y="50%" fill="#007bff" dy=".3em" data-darkreader-inline-fill="" 
+                            style="--darkreader-inline-fill: var(--darkreader-text-007bff, #33a2ff);">32x32</text>
+                            </svg> <div class="pb-3 mb-0 small lh-sm border-bottom w-100"> 
+                                <div class="d-flex justify-content-between"> 
+                                    <strong class="text-gray-dark">Full Name</strong> 
+                                    <a href="#">Follow</a> 
+                                </div> 
+                                <span class="d-block">@username</span> 
+                            </div> 
+                        </div> 
+                        <small class="d-block text-end mt-3"> 
+                            <a href="#">All Attendees</a> 
+                        </small> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script>
+        const carousel = new bootstrap.Carousel(document.getElementById('carousel-slider'), {
+            interval: 2000,
+            ride: 'carousel'
+        });
+    </script>
+</body>
+</html>

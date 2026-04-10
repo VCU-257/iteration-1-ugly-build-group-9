@@ -12,3 +12,6 @@ Below are links to individual members read me as well as the page they implement
     * [Naimul Naim's README](./Group9-README/README-Naimul-Naim.md)
     * [Naimul Naim's work](./event-list.html)
 
+- **Lindsey Marandina**:
+    * [Lindsey Marandina's README](./Group9-README\README-Lindsey-Marandina.md)
+    * [Lindsey Marandina's work](./Dashboard.html)

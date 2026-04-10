@@ -8,15 +8,18 @@
 
 ## 2. Bootstrap Implementation
 *Briefly explain the standard components you used for your assigned areas. [cite_start]Did you stick to the plan from Table 1?*
-* **Components Used:** *(e.g., Bootstrap Navbar, Cards, Form Controls, Tables)*
+* **Components Used:** Boostrap Carousel, Card with Rounded Borders, and Rounded Shadow Container.
+
+I did mostly stick to the plan/our prototype with smaller visual changes depending on Boostraps available component
 
 ## 3. Technical Challenges & Solutions
-[cite_start]*Look back at Table 4: Technical Risks. Did you build any of those risky components? How did you solve the challenge? If you didn't face those specific risks, what was the hardest part of your assigned work?*
+
+Implementing the Bootstrap carousel was the primary challenge of this project. I developed custom JavaScript to handle both the manual click events and the 2-second automated sliding interval, as the default behavior required additional logic to sync correctly.
 
 ## 4. AI / LLM Usage
 *Did you use an AI tool to help write or debug your code?*
-* **What I asked the AI:** *(e.g., "How do I make a sticky footer in Bootstrap 5?")*
-* **How it helped & What I learned:** *(Explain the solution it provided and how you ensured you understood the code).*
+* **What I asked the AI:** N/A
+* **How it helped & What I learned:** N/A
 
 ## 5. Live Site Link
 *Provide the GitHub Pages link to the specific page(s) you built.*

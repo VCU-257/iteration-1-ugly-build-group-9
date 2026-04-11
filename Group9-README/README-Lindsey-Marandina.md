@@ -20,4 +20,4 @@ Solution: Wrapped images in <a> tags styled with Bootstrap button classes instea
 
 ## 5. Live Site Link
 *Provide the GitHub Pages link to the specific page(s) you built.*
-* **Live URL:** [Insert Link Here]
+* **Live URL:** [https://vcu-257.github.io/iteration-1-ugly-build-group-9/Dashboard.html]

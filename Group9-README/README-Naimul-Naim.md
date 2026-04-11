@@ -23,3 +23,4 @@ I used AI to help generate and organize Bootstrap HTML for the Event List and Ev
 **How it helped & What I learned:** It helped me understand how to structure cards, pagination, breadcrumbs, and carousel components in Bootstrap. I reviewed the code and made sure I understood how the components worked before using them.
 
 ## 5. Live Site Link
+**Live URL:**[https://vcu-257.github.io/iteration-1-ugly-build-group-9/event-list.html]

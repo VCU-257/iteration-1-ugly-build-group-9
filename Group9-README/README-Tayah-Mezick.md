@@ -1,6 +1,4 @@
 
-
-```
 # Student Name: Tayah Mezick
 
 ## 1. My Assigned Work
@@ -22,7 +20,7 @@ Filtering navbar
 * **How it helped & What I learned:** *N/A*
 
 ## 5. Live Site Link
-*Provide the GitHub Pages link to the specific page(s) you built.*
-* **Live URL:** [Insert Link Here]
+
+**Live URL:** [https://vcu-257.github.io/iteration-1-ugly-build-group-9/filter.html]
 ```
 

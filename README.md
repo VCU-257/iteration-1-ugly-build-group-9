@@ -4,6 +4,10 @@
 
 # Group 9 README:
 Below are links to individual members README as well as the pages/components they implemented.
+
+- **Live Webpage**:
+    * [Group 9 Live Github Website](https://vcu-257.github.io/iteration-1-ugly-build-group-9/)
+
 - **Ngoc Nguyen**: 
     * [Ngoc Nguyen's README](./Group9-README/README%20-%20Ngoc%20Nguyen.md)
     * [Ngoc Nguyen's work](./Event%20Details%20Page.html)
@@ -23,5 +27,3 @@ Below are links to individual members README as well as the pages/components the
 - **Tayah Mezick**:
     * [Tayah Mezick's README](./Group9-README/README-Tayah-Mezick.md)
     * [Tayah Mezick's work](./filter.html)
-
-[Group 9 Live Github Website](https://vcu-257.github.io/iteration-1-ugly-build-group-9/)

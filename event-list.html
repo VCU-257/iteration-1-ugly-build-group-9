@@ -10,18 +10,63 @@
         max-width: 430px;
         margin: 0 auto;
         background: #f0f0f0;
-      }    
+      }
+      /* Restrict mobile menu height */
+      .navbar-collapse {
+        max-height: 450px;
+        overflow-y: auto;
+      }
+      /* Space so fixed-bottom filter bar doesn't overlap content */
+      body {
+        padding-bottom: 60px;
+      }
   </style>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-  <div class="container py-3">
-    <div class="d-flex justify-content-between align-items-center mb-3">
-      <button class="btn btn-outline-secondary btn-sm">☰</button>
-      <h1 class="h5 mb-0">Campus Events</h1>
-      <button class="btn btn-outline-secondary btn-sm">🔍</button>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">Campus Events</a>
+
+      <!-- Hamburger Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible Menu -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Map</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+        </ul>
+
+        <!-- Profile Dropdown -->
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              User
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">View Profile</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+
+      </div>
     </div>
+  </nav>
+
+  <div class="container py-3">
 
     <div class="mb-3">
       <div class="card">
@@ -91,6 +136,61 @@
       </ul>
     </nav>
   </div>
+
+  <!-- FILTER BAR (fixed bottom) -->
+  <nav class="navbar fixed-bottom navbar-light bg-light">
+    <div class="container-fluid">
+      <span class="navbar-brand">Filter</span>
+      <div class="btn-group dropup">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Filter Events
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" style="max-width: max-content; min-width: max-content;">
+          <form class="m-3">
+            <div class="form-group mb-2">
+              <label for="fm1" class="form-label">Distance (Miles)</label>
+              <input type="range" class="form-range" id="fm1" min="0" max="100" value="0">
+              <output for="fm1" id="rangeVal"></output>
+            </div>
+            <div class="form-group mb-2">
+              <label for="fm2" class="form-label">Event size (minimum)</label>
+              <input type="range" class="form-range" id="fm2" min="0" max="10000" step="10" value="0">
+              <output for="fm2" id="rangeVal2"></output>
+            </div>
+            <div class="form-group mb-2">
+              <label for="fm3" class="form-label">Cost (USD)</label>
+              <input type="range" class="form-range" id="fm3" min="0" max="100" value="0">
+              <output for="fm3" id="rangeVal3"></output>
+            </div>
+            <div class="form-group mb-2">
+              <label for="fm4" class="form-label">Key Words (separate with " , " )</label>
+              <input type="text" class="form-control" id="fm4">
+            </div>
+            <div class="form-group py-2">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Range slider live output
+    const sliders = [
+      { input: 'fm1', output: 'rangeVal' },
+      { input: 'fm2', output: 'rangeVal2' },
+      { input: 'fm3', output: 'rangeVal3' },
+    ];
+    sliders.forEach(({ input, output }) => {
+      const inp = document.getElementById(input);
+      const out = document.getElementById(output);
+      out.textContent = inp.value;
+      inp.addEventListener('input', () => out.textContent = inp.value);
+    });
+  </script>
 
 </body>
 </html>

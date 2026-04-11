@@ -7,6 +7,7 @@ Below are links to individual members README as well as the pages/components the
 
 - **Live Webpage**:
     * [Group 9 Live Github Website](https://vcu-257.github.io/iteration-1-ugly-build-group-9/)
+    * The website is currently restricted to 430px max-height for mobile first view only.
 
 - **Ngoc Nguyen**: 
     * [Ngoc Nguyen's README](./Group9-README/README%20-%20Ngoc%20Nguyen.md)

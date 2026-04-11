@@ -22,5 +22,4 @@ Filtering navbar
 ## 5. Live Site Link
 
 **Live URL:** [https://vcu-257.github.io/iteration-1-ugly-build-group-9/filter.html]
-```
 

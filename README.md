@@ -11,23 +11,23 @@ Below are links to individual members README as well as the pages/components the
 
 - **Ngoc Nguyen**: 
     * [Ngoc Nguyen's README](./Group9-README/README%20-%20Ngoc%20Nguyen.md)
-    * [Ngoc Nguyen's work](./Event%20Details%20Page.html)
+    * [Ngoc Nguyen's work](/group9-pages/Event%20Details%20Page.html)
 
 - **Naimul Naim**: 
     * [Naimul Naim's README](./Group9-README/README-Naimul-Naim.md)
-    * [Naimul Naim's work](./event-list.html)
+    * [Naimul Naim's work](/group9-pages/event-list.html)
 
 - **Lindsey Marandina**:
     * [Lindsey Marandina's README](./Group9-README\README-Lindsey-Marandina.md)
-    * [Lindsey Marandina's work](./Dashboard.html)
+    * [Lindsey Marandina's work](/group9-pages/Dashboard.html)
 
 - **Danielle Macklin**: 
     * [Danielle Macklin's README](./Group9-README/README-Danielle-Macklin.md)
-    * [Danielle Macklin's work](./navigationbar.html)
+    * [Danielle Macklin's work](/group9-pages/navigationbar.html)
 
 - **Tayah Mezick**:
     * [Tayah Mezick's README](./Group9-README/README-Tayah-Mezick.md)
-    * [Tayah Mezick's work](./filter.html)
+    * [Tayah Mezick's work](/group9-pages/filter.html)
 
 # User Flow B
 <img src="images/UserFlowsB.png" alt="User Flow B" width="450">

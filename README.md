@@ -27,3 +27,6 @@ Below are links to individual members README as well as the pages/components the
 - **Tayah Mezick**:
     * [Tayah Mezick's README](./Group9-README/README-Tayah-Mezick.md)
     * [Tayah Mezick's work](./filter.html)
+
+# User Flow B
+<img src="images/UserFlowsB.png" alt="User Flow B" width="450">

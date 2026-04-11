@@ -3,7 +3,7 @@
 
 
 # Group 9 README:
-Below are links to individual members read me as well as the page they implemented.
+Below are links to individual members README as well as the pages/components they implemented.
 - **Ngoc Nguyen**: 
     * [Ngoc Nguyen's README](./Group9-README/README%20-%20Ngoc%20Nguyen.md)
     * [Ngoc Nguyen's work](./Event%20Details%20Page.html)
@@ -15,7 +15,12 @@ Below are links to individual members read me as well as the page they implement
 - **Lindsey Marandina**:
     * [Lindsey Marandina's README](./Group9-README\README-Lindsey-Marandina.md)
     * [Lindsey Marandina's work](./Dashboard.html)
+
 - **Danielle Macklin**: 
     * [Danielle Macklin's README](./Group9-README/README-Danielle-Macklin.md)
     * [Danielle Macklin's work](./navigationbar.html)
+
+- **Tayah Mezick**:
+    * [Tayah Mezick's README](./Group9-README/README-Tayah-Mezick.md)
+    * [Tayah Mezick's work](./filter.html)
 
